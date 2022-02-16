@@ -35,3 +35,12 @@
     transition:none;
     transform: translate(-1rem,0rem);
 }
+
+.pagination__controller > button{
+    min-height:60%;
+    width:auto;
+}
+
+.pagination__controller > button > img{
+    height:75%;
+}

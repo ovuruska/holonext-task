@@ -1,11 +1,23 @@
-body {
+
+html {
   margin: 0;
   font-size:16px;
-  color:#fffade;
+  color: #fffade;
   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+}
+
+* {
+  margin:0;
+  box-sizing:border-box;
+}
+
+@media only screen and  (max-width: 900px){
+  html{
+    font-size:12px;
+  }
 }
 
 #root{

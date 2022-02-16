@@ -1,9 +1,8 @@
-import React,{useState} from "react"
+import React from "react"
 import GridView from "../../templates/GridView"
 import a from "./assets/a.jpeg"
 import b from "./assets/b.jpeg"
-import BottomMenu from "../../components/BottomMenu"
-import HamburgerButton from "../../components/HamburgerButton";
+import BottomMenu from "../../templates/BottomMenu"
 import Pagination from "../../components/Pagination"
 import "./style.css"
 
@@ -29,7 +28,6 @@ const grids = [
 
 const Homepage =  () => {
 
-    const [menuActive,setActive] = useState(false)
 
 
     return <div className={"homepage-container"}>
@@ -40,8 +38,7 @@ const Homepage =  () => {
                 }
             </Pagination>
         </section>
-        <BottomMenu active={menuActive}/>
-        <HamburgerButton onClick={() => setActive(!menuActive)} className="homepage__button--left-bottom-fixed"/>
+        <BottomMenu/>
 
     </div>
 }

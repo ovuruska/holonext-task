@@ -42,8 +42,8 @@ export default ({children}) => {
             })
         }
         <section className={"pagination__controller"}>
-            <SliderLeftButton  disabled={currentSlide === 0} onClick={() => setSlide(currentSlide-1)}/>
-            <SliderRightButton  disabled={currentSlide === children.length-1} onClick={() => setSlide(currentSlide+1)}/>
+            <SliderLeftButton className={"pagination__controller__button"} disabled={currentSlide === 0} onClick={() => setSlide(currentSlide-1)}/>
+            <SliderRightButton className={"pagination__controller__button"} disabled={currentSlide === children.length-1} onClick={() => setSlide(currentSlide+1)}/>
 
         </section>
     </div>
