@@ -23,6 +23,14 @@ const grids = [
         name:"Not Determined",
         creator:"sameasyou",
         description:"Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species."
+    },
+    {
+        sceneId:"61d82b762e21d40039c73fd4",
+        username:"provisionfree",
+        image:a,
+        name:"QuarticEase",
+        creator:"provisionfree",
+        description:"Creating the web was really an act of desperation, because the situation without it was very difficult when I was working at CERN later. Most of the technology involved in the web, like the hypertext, like the Internet, multifont text objects, had all been designed already. I just had to put them together. It was a step of generalising, going to a higher level of abstraction, thinking about all the documentation systems out there as being possibly part of a larger imaginary documentation system."
     }
 ]
 
