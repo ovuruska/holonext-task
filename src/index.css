@@ -13,6 +13,9 @@ html {
   margin:0;
   box-sizing:border-box;
 }
+button{
+  user-select: none;
+}
 
 @media only screen and  (max-width: 900px){
   html{
