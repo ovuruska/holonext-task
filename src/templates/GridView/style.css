@@ -1,0 +1,16 @@
+.gridview__root{
+    display:flex;
+    height:100%;
+    width:100%;
+}
+
+.gridview__root__left-grid{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+}
+
+.gridview__root__right-grid{
+    max-height:100vh;
+    width:60%;
+}

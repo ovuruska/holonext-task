@@ -1,0 +1,11 @@
+.rect-button{
+    height:4rem;
+    width:4rem;
+    outline:none;
+    border:none;
+    border-radius:3px;
+}
+.rect-button:hover{
+    cursor:pointer;
+
+}

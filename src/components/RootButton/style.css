@@ -1,0 +1,25 @@
+.button-primary {
+    width:4rem;
+    height:4rem;
+    border-radius:4rem;
+    outline:none;
+    border:none;
+    user-select: none;
+    background-color:#aaa7ff;
+    transition: all .2s linear;
+    box-shadow: 0 4px 3px 2px rgba(0, 0, 0, 0.2);}
+
+.button-primary:hover{
+    cursor:pointer;
+    background-color:#29388e;
+    transform:translateY(-.1rem);
+}
+
+.button-primary:active{
+    cursor:pointer;
+    background-color:#29388e;
+    transform:translateY(.1rem);
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2);
+
+}
+

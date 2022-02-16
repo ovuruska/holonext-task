@@ -1,0 +1,28 @@
+.item-card{
+    display:flex;
+    background-color:#AAA7FF;
+    width:100%;
+    height:50%;
+    flex-direction:column;
+    justify-content:start;
+    align-items:center;
+    position:relative;
+}
+.item-card__header{
+    margin-top:2rem;
+    font-size:2rem;
+}
+
+.item-card__description{
+    font-weight:100;
+    font-size:1rem;
+    margin-top:0;
+    text-align:left;
+    width:90%;
+    max-height:60%;
+}
+
+.item-card__creator{
+    position:absolute;
+    bottom:1rem;
+}
