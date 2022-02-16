@@ -15,6 +15,31 @@
     border:3px solid gray;
 }
 
+@media only screen and  (max-width: 500px){
+    .profile-card__image {
+        width:4rem;
+        height:4rem;
+        margin-top:1rem;
+
+    }
+    .profile-card__username{
+        font-size:1.5rem;
+        margin-top:0;
+        margin-bottom:1rem;
+    }
+
+    .gridview__root__left-grid{
+        min-width:100%;
+        height:30%;
+        display:flex;
+        flex-direction:row;
+    }
+    .gridview__root__right-grid{
+        height:70%;
+        min-width:100%;
+    }
+}
+
 .profile-card__username{
     margin-top:1.5rem;
     font-size:2rem;

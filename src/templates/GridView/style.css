@@ -4,6 +4,23 @@
     width:100%;
 }
 
+@media only screen and  (max-width: 500px){
+
+    .gridview__root{
+        flex-direction:column;
+    }
+    .gridview__root__left-grid{
+        min-width:100%;
+        height:30%;
+        display:flex;
+        flex-direction:row;
+    }
+    .gridview__root__right-grid{
+        height:70%;
+        min-width:100%;
+    }
+}
+
 .gridview__root__left-grid{
     width:40%;
     display:flex;
@@ -11,6 +28,6 @@
 }
 
 .gridview__root__right-grid{
-    max-height:100vh;
+    height:100%;
     width:60%;
 }

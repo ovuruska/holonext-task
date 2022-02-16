@@ -7,7 +7,7 @@
     justify-content:flex-start;
     align-items:center;
     position:relative;
-
+    overflow:hidden;
 }
 .item-card__header{
     margin-top:2rem;
@@ -24,6 +24,17 @@
     max-height:60%;
 }
 
+@media only screen and  (max-width: 500px) {
+    .item-card__header {
+        margin-top: 1rem;
+    }
+
+    .item-card__description {
+        display:none;
+    }
+
+
+}
 .item-card__creator{
     position:absolute;
     font-size:1rem;
